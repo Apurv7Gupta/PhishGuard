@@ -39,7 +39,7 @@ A modern React application that uses AI to detect and explain phishing threats i
 
 ### Environment Variables
 Set the following environment variable in your hosting platform:
-- `VITE_GOOGLE_API_KEY`: Your Google Safe Browsing API key
+- `VITE_GOOGLE_SAFEBROWSING_API_KEY`: Your Google Safe Browsing API key
 
 ### Supported Platforms
 - Netlify

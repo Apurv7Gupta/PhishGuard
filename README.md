@@ -4,7 +4,7 @@ A modern React application that uses AI to detect and explain phishing threats i
 
 ## Features
 
-- **AI-Powered Analysis**: Uses Google Gemini API for intelligent phishing detection
+- **AI-Powered Analysis**: Uses Google Safe Browsing API for intelligent phishing detection
 - **Multi-Format Support**: Analyze emails, SMS/chat messages, and website URLs
 - **Client-Side Heuristics**: Additional local analysis for common phishing patterns
 - **Visual Highlighting**: Suspicious domains and content are highlighted in results
@@ -22,7 +22,7 @@ A modern React application that uses AI to detect and explain phishing threats i
 
 2. **Configure API Key**
    - Copy `.env` to your local environment
-   - Replace `your_google_api_key_here` with your actual Google Gemini API key
+   - Add your Google Safe Browsing API key
    - Get your API key from: https://makersuite.google.com/app/apikey
 
 3. **Development**
@@ -39,7 +39,7 @@ A modern React application that uses AI to detect and explain phishing threats i
 
 ### Environment Variables
 Set the following environment variable in your hosting platform:
-- `VITE_GOOGLE_API_KEY`: Your Google Gemini API key
+- `VITE_GOOGLE_API_KEY`: Your Google Safe Browsing API key
 
 ### Supported Platforms
 - Netlify
@@ -58,7 +58,7 @@ Set the following environment variable in your hosting platform:
 - **Frontend**: React 18 + TypeScript
 - **Styling**: Tailwind CSS
 - **Build Tool**: Vite
-- **AI API**: Google Gemini 2.0 Flash
+- **AI API**: Google Safe Browsing 2.0 Flash
 - **Storage**: localStorage for history
 
 ## Contributing
